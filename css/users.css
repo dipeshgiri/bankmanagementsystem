@@ -1,0 +1,43 @@
+.row .container
+{
+	margin-left:220px;
+	margin-top:auto;
+	height:200px;
+	width:400px;
+	background-color: grey;
+}
+.row .container h4
+{
+	color:white;
+}
+.row .container label
+{
+	color:white;
+	padding:10px;
+	
+}
+.row .container #accno
+{
+	border:none;
+	margin:5px;
+	border-bottom:1px solid white;
+	outline:none;
+	background:transparent;
+	text-align:center;
+	height:20px;
+	color:white;
+}
+.tables
+{
+	margin-left:190px;
+	margin-top:auto;
+	height:200px;
+	width:600px;
+}
+
+.tables h4
+{
+	text-align: center;
+	background:black;
+    color:white;
+}

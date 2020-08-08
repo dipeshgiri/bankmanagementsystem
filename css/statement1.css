@@ -1,0 +1,47 @@
+.heading
+{
+	margin-top:20px;
+	text-align:center;
+	color:black;
+}
+.lines
+{
+	border:1px solid black;
+}
+.para
+{
+	float:left;
+	font-size:20px;
+	color:black;
+}
+.name,.accountno,.currency
+{
+	float:left;
+	font-size:18px;
+	color:black;
+}
+.openingbalance,.closingbalance
+{
+	float:right;
+	font-size:18px;
+	color:black;
+}
+#name
+{
+	color:red;
+}
+.tabledata
+{
+	color:black;
+}
+.rows
+{
+	float:left;
+	color:red;
+}
+.date
+{
+	float:right;
+	color:red;
+	margin-right: 10px;
+}

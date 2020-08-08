@@ -1,0 +1,59 @@
+*{box-sizing: border-box;}
+/*Full Width input fields*/
+.firstname,.lastname,.accountno,.startdate,.enddate
+{
+	width:100%;
+	padding: 15px;
+	margin:5px 0 22px 0;
+	display: inline-block;
+	border:none;
+	background: #f1f1f1;
+}
+/*Add background color when input get focused*/
+.firstname:focus,.lastname:focus,.accountno:focus,.startdate:focus,.enddate:focus
+{
+	background: #ddd;
+	outline:none;
+}
+button:hover
+{
+	opacity: 1;
+}
+.container
+{
+	padding:16px;
+}
+
+/*The Modal(background)*/
+.modal
+{
+	display: none;
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height:100%;
+	overflow:auto;/*enable scroll if needed*/
+	background-color:#474e5d;
+	padding-top:50px;  
+}
+/*Modal Content Box*/
+.modal-content
+{
+	background-color:#fefefe;
+	margin:5% auto 15% auto; /*5% from top and 15% From the bottom and centered*/
+	border:1px solid #888;
+	width:70%;
+
+}
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+h1,p
+{
+	text-align: center;
+
+}

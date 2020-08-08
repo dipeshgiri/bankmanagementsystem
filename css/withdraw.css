@@ -1,0 +1,93 @@
+#hello
+{
+margin-top:40px; 
+margin-left:auto;
+height:500px; 
+width:450px; 
+background: black ;
+}
+#heading
+{
+	text-align: center; 
+	color:white;
+}
+#fname,#lname,#accno,#chqno,#Withdrawername,#Withdrawndate,#amount,.modal
+{
+	margin-top:10px;
+	color:white;
+}
+#firstname,#lastname,#accountno,#chequeno,#withdrawernames,#withdrawndates,#amounts
+{
+outline:none; 
+border:none; 
+border-bottom:1px solid white; 
+color:white; 
+background:transparent; 
+text-align:center; 
+margin-left:20px; 
+height:15px;
+}
+
+#accountno
+{
+margin-left:94px;
+}
+#chequeno
+{
+	margin-left:94px;
+}
+#withdrawernames
+{
+	margin-left:80px;
+}
+#withdrawndates
+{
+	margin-left:178px;
+}
+#amounts
+{
+	margin-left:155px;
+}
+#btn 
+{
+   margin-left:175px; 
+   color:white;
+}
+.fname,.lname,.accno,.chqno,.withdrawername,.withdrawdate,.amount
+{
+	margin-top:10px;
+	color:black;
+}
+
+.firstname,.lastname,.accnumber,.cheqnumber,.withdrawname,.withdrawndates,.amounts
+{
+outline:none; 
+border:none; 
+border-bottom:1px solid black; 
+color:black; 
+background:transparent; 
+text-align:center; 
+margin-left:20px; 
+height:15px;
+}
+
+.accnumber
+{
+	margin-left:94px;
+}
+.cheqnumber
+{
+	margin-left:98px;
+}
+.withdrawname
+{
+	margin-left:85px;
+}
+.withdrawndates
+{
+	margin-left:110px;
+}
+.amounts
+{
+	margin-left:80px;
+}

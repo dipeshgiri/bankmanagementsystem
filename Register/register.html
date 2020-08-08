@@ -1,0 +1,124 @@
+<head>
+<link rel="stylesheet" href="../css/register.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<title>Register Form</title>
+</head>
+<body style="background-color:grey;">
+<div class="container">
+<form action="emailverification.php" method="post" enctype="multipart/form-data">
+<h1>Account Opening Form</h1>
+<div class="form">
+<h2>Personal Details</h2>
+<input type="text" id="firstname" placeholder="First Name" name="firstname" required/>
+<input type="text" id="lastname" placeholder="Last Name" name="lastname" required />
+<input type="text" id="fathername" placeholder="Father's Name" name="fathername" required />
+<input type="text" id="mothername" placeholder="Mother's Name" name="mothername" required />
+<input type="text" id="grandfathername" placeholder="Grand Father's Name" name="grandfathername"required />
+<br>
+<input type="text" id="grandmothername" placeholder="Grand Mother's Name"  name="grandmothername"required/>
+<input type="text" id="phonenumber" placeholder="Phone Number" name="phonenumber"required />
+<input type="text" id="email" name="email" placeholder="Email Address" name="email" required />
+<input type="password" id="password" placeholder="Password" name="password"required /> 
+<input type="text" id="address" placeholder="Address" name="address" required />
+
+<div class="line">
+</div>
+
+<div class="otherdetails">
+	<h2>Other Details</h2>
+	<label class="Nationality">Nationality</label>
+    <input type="text" id="nationality" placeholder="Nationality" name="nationality" required /> 
+    <label class="gender">Gender</label>
+         <select id="gender" name="Gender" placeholder="Gender" required />
+         <option value="Male">Male</option>
+         <option value="Female">Female</option>
+         <option value="Other">Other</option>
+     </select>
+     <label class="Dateofbirth">Date Of Birth</label>
+     <input type="date" id="Date" name="date" required />
+     <label class="citizenshipno">Citizenship No</label>
+	   <input type="text" id="citizenshipno" name="citizenship" required/>
+</div>
+<div class="line2">
+</div>
+<div class="Documentandphotos">
+<h2>Documents And Photos</h2>
+<label id="image"><strong>Upload your PP Size Photo Below size:35mm*45mm</strong>
+</label>
+<label id="document"><strong>Please Upload your citizenship scanned copy here</strong></label>
+<br>
+<input type='file' id="imgInp" name="photo"  required />
+<input type='file' id="citizenship" name="front" required />
+<input type='file' id="citizenship1" name="back" required />
+<br>
+  <img id="photo" src="#" alt=" Preview" />
+  <img id="citizenshipfront" src="#" alt=" preview"/>
+  <img id="citizenshipback" src="#" alt=" preview"/>
+  <script>
+
+function readURL(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    
+    reader.onload = function(e) {
+      $('#photo').attr('src', e.target.result);
+    }
+    
+    reader.readAsDataURL(input.files[0]); // convert to base64 string
+  }
+}
+
+$("#imgInp").change(function() {
+  readURL(this);
+});
+    
+function readURL2(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    
+    reader.onload = function(e) {
+      $('#citizenshipfront').attr('src', e.target.result);
+    }
+    
+    reader.readAsDataURL(input.files[0]); // convert to base64 string
+  }
+}
+
+$("#citizenship").change(function() {
+  readURL2(this);
+});
+
+
+ 
+function readURL3(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    
+    reader.onload = function(e) {
+      $('#citizenshipback').attr('src', e.target.result);
+    }
+    
+    reader.readAsDataURL(input.files[0]); // convert to base64 string
+  }
+}
+
+$("#citizenship1").change(function() {
+  readURL3(this);
+});
+</script>
+</div>
+</div>
+<button class="btn btn-success" id="button">Submit</button>
+</form>
+</div>
+</body>
+</html>

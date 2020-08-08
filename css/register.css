@@ -1,0 +1,97 @@
+.form 
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	border-radius:20px;
+	height:100%;
+	background-color:white;
+	
+}
+.container h1
+{
+	text-align:center;
+	margin:0px;
+	color:white;
+}
+.form h2
+{
+
+    font-size:25px;
+    margin:10px;
+    color:grey;
+    text-align:center;
+}
+.form #firstname,#lastname,#fathername,#mothername,#grandfathername,#grandmothername,#phonenumber,#email,#password,#address
+{    
+	margin:10px;
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid grey;
+	height: 35px;
+	color:grey;
+	float:left;
+	text-align:center;
+}
+.form .line
+{
+	margin-top:110px;
+	border-bottom:1px solid black;
+}
+.form .otherdetails h2
+{
+	text-align:center;
+}
+.form .otherdetails .Nationality,.gender,.Dateofbirth,.citizenshipno
+{
+	margin:10px;
+}
+.form .otherdetails #nationality,#gender,#Date,#citizenshipno
+{
+	margin:10px;
+	background:transparent;
+	text-align:center;
+	height:35px;
+    color:grey;
+}
+.form #citizenshipno
+{
+	width:14%;
+}
+.form .line2
+{
+	margin-top:10px;
+	border-bottom:1px solid black;
+
+}
+.form .Documentandphotos
+{
+	margin:10px;
+}
+.form .Documentandphotos h2
+{
+	text-align:center;
+}
+.form .Documentandphotos #photo
+{
+	height:50mm;
+	width:45mm;
+}
+.form .Documentandphotos #image 
+{
+	float:left;
+}
+.form .Documentandphotos #document,#citizenship,#citizenshipfront
+{
+    float:right;
+}
+.form .Documentandphotos #citizenship1,#citizenshipback
+{
+    float:right;
+}
+.form .Documentandphotos #citizenshipfront,#citizenshipback
+{
+	float:right;
+	height:60mm;
+	width:90mm;
+}

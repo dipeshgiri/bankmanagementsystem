@@ -1,0 +1,85 @@
+#hello
+{
+margin-top:40px; 
+margin-left:auto;
+height:450px; 
+width:450px; 
+background: #212f3d ;
+}
+#heading
+{
+	text-align: center; 
+	color:white;
+}
+#fname,#lname,#depositername,#depositeddate,#amount,#accno,.modal
+{
+	margin-top:10px;
+	color:white;
+}
+#firstname,#lastname,#accountno,#depositernames,#depositeddates,#amounts
+{
+outline:none; 
+border:none; 
+border-bottom:1px solid white; 
+color:white; 
+background:transparent; 
+text-align:center; 
+margin-left:20px; 
+height:15px;
+}
+
+#accountno
+{
+margin-left:94px;
+}
+#depositernames
+{
+	margin-left:95px;
+}
+#depositeddates
+{
+	margin-left:100px;
+}
+#amounts
+{
+	margin-left:155px;
+}
+#btn 
+{
+   margin-left:175px; 
+   color:white;
+}
+.fname,.lname,.accno,.depositername,.depositeddate,.amount
+{
+	margin-top:10px;
+	color:black;
+}
+
+.firstname,.lastname,.accnumber,.depositename,.depositeddates,.amounts
+{
+outline:none; 
+border:none; 
+border-bottom:1px solid black; 
+color:black; 
+background:transparent; 
+text-align:center; 
+margin-left:20px; 
+height:15px;
+}
+
+.accnumber
+{
+	margin-left:94px;
+}
+.depositename
+{
+	margin-left:95px;
+}
+.depositeddates
+{
+	margin-left:100px;
+}
+.amounts
+{
+	margin-left:80px;
+}
